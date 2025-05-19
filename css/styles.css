@@ -6,11 +6,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Metamorphous&display=swap');
 
 header {
-    padding-top: 10%;
+    padding-top: 11%;
     padding-bottom: 4%;
-    padding-left: 10%;
+    padding-left: 22.5%;
     padding-right: 10%;
     background-color: hsl(34, 57%, 70%, 0);
+    display: flex;
+    flex-direction: row;
 }
 
 header>a>img {
@@ -25,7 +27,7 @@ header>img {
 }
 
 .font-site-1 {
-    background-image: url(../img/font-site.jpeg), url(../img/lord.jpg);
+    background-image: url(../img/font-site.jpg), url(../img/lord.jpg);
     background-repeat: no-repeat, no-repeat;
     background-position: top, bottom;
     background-size: contain, contain;
@@ -34,7 +36,7 @@ header>img {
 }
 
 .font-site-2 {
-    background-image: url(../img/font-site.jpeg);
+    background-image: url(../img/font-site.jpg);
     background-size: cover;
     background-attachment: fixed;
     font-family: Tahoma, sans-serif;
@@ -51,6 +53,7 @@ nav {
     border-left: 10px double rgb(255, 228, 169, 0.8);
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 2%;
+    width: 1490px;
 }
 
 nav>img {
@@ -125,6 +128,7 @@ footer {
     background-position: 10px, 1410px;
     text-align: center;
     text-shadow: 3px 3px 3px rgb(0, 0, 0, 0.4);
+    width: 1510px;
 }
 
 #flamme {
@@ -240,6 +244,7 @@ aside img:hover {
     margin-left: 10%;
     margin-right: 10%;
     background: rgba(222, 184, 135, 0.7);
+    width: 1490px;
 }
 
 #page-index {
@@ -254,6 +259,7 @@ aside img:hover {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    width: 1490px;
 }
 
 h1 {
@@ -477,6 +483,7 @@ th {
     margin-left: 10%;
     margin-right: 10%;
     background: rgba(222, 184, 135, 0.7);
+    width: 1490px;
 }
 
 #img-repos {
