@@ -26,22 +26,6 @@ header>img {
     max-width: 100%;
 }
 
-.font-site-1 {
-    background-image: url(../img/font-site.jpg), url(../img/lord.jpg);
-    background-repeat: no-repeat, no-repeat;
-    background-position: top, bottom;
-    background-size: contain, contain;
-    font-family: Tahoma, sans-serif;
-    background-color: black;
-}
-
-.font-site-2 {
-    background-image: url(../img/font-site.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: Tahoma, sans-serif;
-}
-
 nav {
     background-color: rgb(159, 128, 87, 0.7);
     margin-left: 10%;
@@ -76,14 +60,6 @@ nav>div>p>a:hover {
     transition: all 0.3s ease;
 }
 
-#nav-connexion {
-    align-self: flex-end;
-    border-left: solid 2px #796040;
-    width: 180px;
-    text-align: center;
-    font-size: 18px;
-}
-
 nav>div>ul {
     display: inline-flex;
 }
@@ -109,59 +85,126 @@ nav>div>ul>li>a:hover {
     transition: all 0.3s ease;
 }
 
-.active {
-    text-decoration: line-through;
-    text-decoration-thickness: 1px;
-}
-
-footer {
-    background-color: rgb(159, 128, 87, 0.8);
-    margin-left: 10%;
-    margin-right: 10%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    background-image: url(../img/epee-rouge1.png), url(../img/epee-rouge2.png);
-    background-position: right, left;
-    background-repeat: no-repeat, no-repeat;
-    background-size: 90px, 90px;
-    background-position: 10px, 1410px;
+h1 {
     text-align: center;
-    text-shadow: 3px 3px 3px rgb(0, 0, 0, 0.4);
-    width: 1510px;
+    font-family: "Cinzel Decorative", serif;
+    color: white;
+    text-shadow: 0 0 5px rgb(141, 72, 3),
+        0 0 10px rgb(151, 110, 8);
 }
 
-#flamme {
-    height: 30px;
-    margin-right: 2px;
+/*Main*/
+article {
+    margin-left: 2%;
+    margin-right: 2%;
+    line-height: 1.5;
 }
 
-#hautpage {
-    color: rgb(88, 33, 33);
+iframe {
+    min-width: 560px;
+    margin-right: 3%;
+    border: groove rgba(255, 221, 0, 0.3);
+}
+
+main>article>h2 {
+    font-family: "Bebas Neue", Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-decoration: underline;
+    text-shadow: 2px 2px 8px rgba(255, 221, 0, 0.3),
+        5px 5px 5px rgb(255, 255, 255, 0.1);
+    margin-top: 5%;
+}
+
+/*Classement Boss*/
+caption {
+    font-weight: bold;
     font-size: 18px;
-    grid-area: 1/ 2/ 1/ 2;
-    padding-right: 15px;
-    text-shadow: 1px 1px 3px rgb(0, 0, 0, 0.4)
+    margin-bottom: 1%;
 }
 
-#copy {
-    grid-area: 2/ 2/ 2/ 2;
+table,
+td,
+th {
+    background-color: rgba(222, 184, 135, 0.4);
+    border: solid 1px;
+    font-family: "Winky Rough", sans-serif;
+    text-align: center;
 }
 
-#theme {
-    grid-area: 2/ 1/ 2/ 1;
-    margin-left: 10px;
+/*Formulaire*/
+form {
+    position: relative;
+    z-index: 1;
+    margin-top: 25px;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    text-shadow: black 0 0 5px;
+    background: linear-gradient(rgba(222, 184, 135, 0.8),
+            rgba(222, 184, 135, 0.1),
+            rgba(222, 184, 135, 0));
+    width: 1075px;
+    border-radius: 5%;
 }
 
-#elden {
-    grid-area: 1/ 1/ 1/ 1;
+fieldset {
+    border: none;
+    margin-bottom: 25%;
 }
 
-#nom-auteur {
-    grid-area: 2/ 3/ 2/ 3;
+fieldset>div {
+    margin-bottom: 10%;
+    margin-top: 5%;
 }
 
-/*Fin header, nav, footer*/
+label {
+    display: inline-block;
+    width: 150px;
+    margin-block: 8px;
+    font-size: 18px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+select {
+    height: 20px;
+    width: 200px;
+    box-shadow: 0 0 5px #ffffff;
+}
+
+textarea {
+    width: 300px;
+    box-shadow: 0 0 5px #ffffff;
+}
+
+input[type="checkbox"] {
+    box-shadow: 0 0 5px #ffffff;
+}
+
+input[type="checkbox"]:checked {
+    accent-color: rgb(38, 41, 98);
+}
+
+input[type="radio"] {
+    margin-left: 70px;
+    box-shadow: 0 0 5px #ffffff;
+}
+
+input[type="radio"]:checked {
+    accent-color: rgb(38, 41, 98);
+}
+
+input[type="submit"] {
+    margin-right: 15%;
+    height: 50px;
+    margin-top: 5%;
+    font-family: "Metamorphous", serif;
+    font-weight: bold;
+}
+/*Fin formulaire*/
 
 aside {
     min-width: 400px;
@@ -219,6 +262,75 @@ aside a {
     border-radius: 80%;
 }
 
+aside img:hover {
+    border: 2px ridge rgb(212, 189, 160);
+    transition: border 0.3s;
+}
+
+footer {
+    background-color: rgb(159, 128, 87, 0.8);
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-image: url(../img/epee-rouge1.png), url(../img/epee-rouge2.png);
+    background-position: right, left;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 90px, 90px;
+    background-position: 10px, 1410px;
+    text-align: center;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0, 0.4);
+    width: 1510px;
+}
+
+/****************************************************************/
+
+.font-site-1 {
+    background-image: url(../img/font-site.jpg), url(../img/lord.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top, bottom;
+    background-size: contain, contain;
+    font-family: Tahoma, sans-serif;
+    background-color: black;
+}
+
+.font-site-2 {
+    background-image: url(../img/font-site.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Tahoma, sans-serif;
+}
+
+.page {
+    border: 10px double rgb(159, 128, 87);
+    margin-left: 10%;
+    margin-right: 10%;
+    background: rgba(222, 184, 135, 0.7);
+    width: 1490px;
+}
+
+/*Nav actif*/
+.active {
+    text-decoration: line-through;
+    text-decoration-thickness: 1px;
+}
+
+ /*Lettre brillante*/
+.principal {
+    color: rgba(255, 221, 0, 1);
+    text-shadow: 0 0 5px white,
+        0 0 8px white;
+}
+
+/*Liste classes jouables*/
+.liste-texte {
+    position: relative;
+    top: -12px;
+    font-size: 18px;
+}
+
+/*Aside*/
 .texte-actualite:hover {
     text-shadow: -1px -1px 10px rgb(212, 189, 160),
         1px -1px 5px rgb(212, 189, 160),
@@ -227,24 +339,19 @@ aside a {
     transition: all 0.3s ease;
 }
 
-aside img:hover {
-    border: 2px ridge rgb(212, 189, 160);
-    transition: border 0.3s;
-}
-
 .texte-actualite {
     margin-top: 10px;
     margin-right: 10px;
 }
 
-/*Fin Aside*/
+/***********************************************************/
 
-.page {
-    border: 10px double rgb(159, 128, 87);
-    margin-left: 10%;
-    margin-right: 10%;
-    background: rgba(222, 184, 135, 0.7);
-    width: 1490px;
+#nav-connexion {
+    align-self: flex-end;
+    border-left: solid 2px #796040;
+    width: 180px;
+    text-align: center;
+    font-size: 18px;
 }
 
 #page-index {
@@ -262,31 +369,9 @@ aside img:hover {
     width: 1490px;
 }
 
-h1 {
-    text-align: center;
-    font-family: "Cinzel Decorative", serif;
-    color: white;
-    text-shadow: 0 0 5px rgb(141, 72, 3),
-        0 0 10px rgb(151, 110, 8);
-}
-
-main>article>h2 {
-    font-family: "Bebas Neue", Georgia, 'Times New Roman', Times, serif;
-    font-size: 40px;
-    text-decoration: underline;
-    text-shadow: 2px 2px 8px rgba(255, 221, 0, 0.3),
-        5px 5px 5px rgb(255, 255, 255, 0.1);
-    margin-top: 5%;
-}
-
+/*Presentation*/
 #titre-presentation {
     margin-left: 18%;
-}
-
-article {
-    margin-left: 2%;
-    margin-right: 2%;
-    line-height: 1.5;
 }
 
 #presentation {
@@ -298,18 +383,7 @@ article {
     background-size: 70px auto;
 }
 
-iframe {
-    min-width: 560px;
-    margin-right: 3%;
-    border: groove rgba(255, 221, 0, 0.3);
-}
-
-.principal {
-    color: rgba(255, 221, 0, 1);
-    text-shadow: 0 0 5px white,
-        0 0 8px white;
-}
-
+/*Systeme de jeu*/
 #titre-systeme {
     margin-left: 65%;
     margin-bottom: 10px;
@@ -341,7 +415,6 @@ iframe {
 }
 
 /*Liste classes jouables*/
-
 #liste {
     font-family: "Tagesschrift", system-ui;
     margin-top: -7%;
@@ -357,29 +430,7 @@ iframe {
     list-style-image: url('../img/epee.png');
 }
 
-.liste-texte {
-    position: relative;
-    top: -12px;
-    font-size: 18px;
-}
-
 /* Tableau classement */
-
-caption {
-    font-weight: bold;
-    font-size: 18px;
-    margin-bottom: 1%;
-}
-
-table,
-td,
-th {
-    background-color: rgba(222, 184, 135, 0.4);
-    border: solid 1px;
-    font-family: "Winky Rough", sans-serif;
-    text-align: center;
-}
-
 #difficulte1 {
     background-color: rgb(255, 0, 0);
 }
@@ -420,8 +471,7 @@ th {
     background-color: rgb(68, 255, 0, 0.6);
 }
 
-/*Page - Se connecter*/
-
+/*Page "Se connecter"*/
 #image-construction {
     width: 1200px;
     margin-inline: 10% auto;
@@ -439,8 +489,7 @@ th {
     text-shadow: 5px 5px 3px rgb(0, 0, 0, 0.5);
 }
 
-/*Galerie Photo*/
-
+/*Page "Galerie Photo"*/
 #galerie-titre {
     margin-bottom: 5%;
 }
@@ -474,8 +523,7 @@ th {
     border-radius: 3px;
 }
 
-/*Commentaires*/
-
+/*Page "Commentaires"*/
 #page-com {
     position: relative;
     overflow: hidden;
@@ -499,51 +547,8 @@ th {
     width: 1075px;
 }
 
-form {
-    position: relative;
-    z-index: 1;
-    margin-top: 25px;
-    margin-left: 15%;
-    display: flex;
-    flex-direction: row;
-    color: white;
-    text-shadow: black 0 0 5px;
-    background: linear-gradient(rgba(222, 184, 135, 0.8),
-            rgba(222, 184, 135, 0.1),
-            rgba(222, 184, 135, 0));
-    width: 1075px;
-    border-radius: 5%;
-}
-
 #formulaire1 {
     font-family: system-ui;
-}
-
-fieldset {
-    border: none;
-    margin-bottom: 25%;
-}
-
-fieldset>div {
-    margin-bottom: 10%;
-    margin-top: 5%;
-}
-
-label {
-    display: inline-block;
-    width: 150px;
-    margin-block: 8px;
-    font-size: 18px;
-}
-
-input[type="text"],
-input[type="tel"],
-input[type="email"],
-input[type="date"],
-select {
-    height: 20px;
-    width: 200px;
-    box-shadow: 0 0 5px #ffffff;
 }
 
 #formulaire2 {
@@ -567,14 +572,6 @@ select {
     font-family: "Tagesschrift", system-ui;
 }
 
-input[type="checkbox"] {
-    box-shadow: 0 0 5px #ffffff;
-}
-
-input[type="checkbox"]:checked {
-    accent-color: rgb(38, 41, 98);
-}
-
 #que-pensez-vous {
     grid-area: 1 / 2 / 1 / 2;
     font-family: "Metamorphous", serif;
@@ -585,31 +582,9 @@ input[type="checkbox"]:checked {
     font-family: "Tagesschrift", system-ui;
 }
 
-input[type="radio"] {
-    margin-left: 70px;
-    box-shadow: 0 0 5px #ffffff;
-}
-
-input[type="radio"]:checked {
-    accent-color: rgb(38, 41, 98);
-}
-
 #comm {
     grid-area: 2 / 1 / 2 / 1;
     font-family: "Cinzel Decorative", serif;
-}
-
-textarea {
-    width: 300px;
-    box-shadow: 0 0 5px #ffffff;
-}
-
-input[type="submit"] {
-    margin-right: 15%;
-    height: 50px;
-    margin-top: 5%;
-    font-family: "Metamorphous", serif;
-    font-weight: bold;
 }
 
 #bouton {
@@ -627,3 +602,35 @@ input[type="submit"] {
         0 0 5px rgb(255, 255, 255);
     transition: all 0.3s ease;
 }
+
+/*Footer*/
+#flamme {
+    height: 30px;
+    margin-right: 2px;
+}
+
+#hautpage {
+    color: rgb(88, 33, 33);
+    font-size: 18px;
+    grid-area: 1/ 2/ 1/ 2;
+    padding-right: 15px;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0, 0.4)
+}
+
+#copy {
+    grid-area: 2/ 2/ 2/ 2;
+}
+
+#theme {
+    grid-area: 2/ 1/ 2/ 1;
+    margin-left: 10px;
+}
+
+#elden {
+    grid-area: 1/ 1/ 1/ 1;
+}
+
+#nom-auteur {
+    grid-area: 2/ 3/ 2/ 3;
+}
+/*Fin footer*/
