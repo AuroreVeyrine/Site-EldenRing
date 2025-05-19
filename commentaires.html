@@ -17,122 +17,120 @@
     <nav>
         <img src="img/aiguille.png" alt="aiguille">
         <div>
-        <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="galerie-images.html">Galerie Photo</a></li>
-            <li><a class="active" href="commentaires.html">Commentaires</a></li>
-        </ul>
-    </div>
-    <div id="nav-connexion">
-        <p><a href="connexion.html">Se connecter</a></p>
-    </div>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="galerie-images.html">Galerie Photo</a></li>
+                <li><a class="active" href="commentaires.html">Commentaires</a></li>
+            </ul>
+        </div>
+        <div id="nav-connexion">
+            <p><a href="connexion.html">Se connecter</a></p>
+        </div>
     </nav>
     <div id="page-com">
-    <main>
-        <h1>- Commentaires -</h1>
-        <img src="img/repos.webp" alt="repos" id="img-repos">
-        <form action="mailto:jolii-rockeuse@hotmail.fr" method="post" enctype="text/plain">
-            <fieldset id="formulaire1">
-                <div>
-                    <label for="prenom">Prénom*</label>
-                    <input type="text" name="prenom" id="prenom" required>
-                </div>
-                <div>
-                    <label for="nom">Nom*</label>
-                    <input type="text" name="nom" id="nom" required>
-                </div>
-                <div>
-                    <label for="courrier">Courriel*</label>
-                    <input type="email" name="courrier" id="courriel" required>
-                </div>
-                <div>
-                    <label for="tel">Téléphone</label>
-                    <input type="tel" name="tel" id="tel" placeholder="###-###-####">
-                </div>
-                <div>
-                    <label for="datenaissance">Date de naissance</label>
-                    <input type="date" name="datenaissance" id="datenaissance">
-                </div>
-                <div>
-                    <label for="province">Province</label>
-                    <select name="province" id="province">
-                        <option value="AB">Alberta</option>
-                        <option value="CB">Colombie-Britannique</option>
-                        <option value="NB">Nouveau-Brunswick</option>
-                        <option value="ON">Ontario</option>
-                        <option value="QC" selected>Québec</option>
-                        <option value="SK">Saskatchewan</option>
-                    </select>
-                </div>
-            </fieldset>
-            <fieldset id="formulaire2">
-                <div id="jeux-favoris">
-                    <p>Quels sont vos genres de jeux vidéos favoris ?</p>
-                    <ul>
+        <main>
+            <h1>- Commentaires -</h1>
+            <img src="img/repos.webp" alt="repos" id="img-repos">
+            <form action="mailto:jolii-rockeuse@hotmail.fr" method="post" enctype="text/plain">
+                <fieldset id="formulaire1">
+                    <div>
+                        <label for="prenom">Prénom*</label>
+                        <input type="text" name="prenom" id="prenom" required>
+                    </div>
+                    <div>
+                        <label for="nom">Nom*</label>
+                        <input type="text" name="nom" id="nom" required>
+                    </div>
+                    <div>
+                        <label for="courriel">Courriel*</label>
+                        <input type="email" name="courrier" id="courriel" required>
+                    </div>
+                    <div>
+                        <label for="tel">Téléphone</label>
+                        <input type="tel" name="tel" id="tel" placeholder="###-###-####">
+                    </div>
+                    <div>
+                        <label for="datenaissance">Date de naissance</label>
+                        <input type="date" name="datenaissance" id="datenaissance">
+                    </div>
+                    <div>
+                        <label for="province">Province</label>
+                        <select name="province" id="province">
+                            <option value="AB">Alberta</option>
+                            <option value="CB">Colombie-Britannique</option>
+                            <option value="NB">Nouveau-Brunswick</option>
+                            <option value="ON">Ontario</option>
+                            <option value="QC" selected>Québec</option>
+                            <option value="SK">Saskatchewan</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <fieldset id="formulaire2">
+                    <div id="jeux-favoris">
+                        <p>Quels sont vos genres de jeux vidéos favoris ?</p>
+                        <ul>
+
+                            <li>
+                                <input type="checkbox" name="chkaction" id="chkaction">
+                                <label for="chkaction">Action</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="chkaventure" id="chkaventure">
+                                <label for="chkaventure">Aventure</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="chkjeuderole" id="chkjeuderole">
+                                <label for="chkjeuderole">Jeu de rôle</label>
+                            </li>
+
+                            <li>
+                                <input type="checkbox" name="chkreflexion" id="chkreflexion">
+                                <label for="chkreflexion">Réflexion</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="chksimulation" id="chksimulation">
+                                <label for="chksimulation">Simulation</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="chkstrategie" id="chkstrategie">
+                                <label for="chkstrategie">Stratégie</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="que-pensez-vous">
+                        <p>Que pensez-vous du site Elden Ring ?</p>
                         <div>
-                        <li>
-                            <input type="checkbox" name="chkaction" id="chkaction">
-                            <label for="chkaction">Action</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" name="chkaventure" id="chkaventure">
-                            <label for="chkaventure">Aventure</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" name="chkjeuderole" id="chkjeuderole">
-                            <label for="chkjeuderole">Jeu de rôle</label>
-                        </li>
+                            <input type="radio" name="notesite" id="excellent" checked>
+                            <label for="excellent">Excellent</label>
                         </div>
                         <div>
-                        <li>
-                            <input type="checkbox" name="chkreflexion" id="chkreflexion">
-                            <label for="chkreflexion">Réflexion</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" name="chksimulation" id="chksimulation">
-                            <label for="chksimulation">Simulation</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" name="chkstrategie" id="chkstrategie">
-                            <label for="chkstrategie">Stratégie</label>
-                        </li>
+                            <input type="radio" name="notesite" id="tb">
+                            <label for="tb">Très bien</label>
                         </div>
-                    </ul>
-                </div>
-                <div id="que-pensez-vous">
-                    <p>Que pensez-vous du site Elden Ring ?</p>
-                    <div>
-                        <input type="radio" name="notesite" id="excellent" checked>
-                        <label for="excellent">Excellent</label>
+                        <div>
+                            <input type="radio" name="notesite" id="moyen">
+                            <label for="moyen">Moyen</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="notesite" id="bof">
+                            <label for="bof">Bof</label>
+                        </div>
                     </div>
-                    <div>
-                        <input type="radio" name="notesite" id="tb">
-                        <label for="tb">Très bien</label>
+                    <div id="comm">
+                        <p>Commentaires</p>
+                        <textarea name="zonetexte" id="zonetexte" rows="7"></textarea>
                     </div>
-                    <div>
-                        <input type="radio" name="notesite" id="moyen">
-                        <label for="moyen">Moyen</label>
-                    </div>
-                    <div>
-                        <input type="radio" name="notesite" id="bof">
-                        <label for="bof">Bof</label>
-                    </div>
-                </div>
-                <div id="comm">
-                    <p>Commentaires</p>
-                    <textarea name="zonetexte" id="zonetexte" rows="7"></textarea>
-                </div>
-                <input type="submit" value="Envoyer les commentaires" id="bouton">
-            </fieldset>
-        </form>
-    </main>
+                    <input type="submit" value="Envoyer les commentaires" id="bouton">
+                </fieldset>
+            </form>
+        </main>
     </div>
     <footer>
         <a href="#haut-page" id="hautpage"><img src="img/flamme.png" alt="flamme" id="flamme">Haut de la page</a>
         <p id="copy">Copyright 2025</p>
         <p id="theme">Thème : Jeu vidéo</p>
         <p id="elden">Elden ring</p>
-        <p id="nom">Aurore Veyrine</p>
+        <p id="nom-auteur">Aurore Veyrine</p>
     </footer>
 </body>
 

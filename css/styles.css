@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Tagesschrift&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Metamorphous&display=swap');
 
-header{
+header {
     padding-top: 10%;
     padding-bottom: 4%;
     padding-left: 10%;
@@ -13,18 +13,18 @@ header{
     background-color: hsl(34, 57%, 70%, 0);
 }
 
-header>a>img{
+header>a>img {
     height: 200px;
     padding-left: 15%;
     padding-bottom: 2%;
 }
 
-header>img{
+header>img {
     height: auto;
     max-width: 100%;
 }
 
-.font-site-1{
+.font-site-1 {
     background-image: url(../img/font-site.jpeg), url(../img/lord.jpg);
     background-repeat: no-repeat, no-repeat;
     background-position: top, bottom;
@@ -33,15 +33,15 @@ header>img{
     background-color: black;
 }
 
-.font-site-2{
+.font-site-2 {
     background-image: url(../img/font-site.jpeg);
     background-size: cover;
     background-attachment: fixed;
     font-family: Tahoma, sans-serif;
 }
 
-nav{
-    background-color: rgb(159, 128, 87,0.7);
+nav {
+    background-color: rgb(159, 128, 87, 0.7);
     margin-left: 10%;
     margin-right: 10%;
     display: flex;
@@ -53,66 +53,66 @@ nav{
     margin-bottom: 2%;
 }
 
-nav>img{
+nav>img {
     height: 55px;
     margin-left: 7%;
 }
 
-nav>div>p>a{
+nav>div>p>a {
     color: bisque;
     font-style: oblique;
     text-shadow: 0 0 1px white;
 }
 
-nav>div>p>a:hover{
+nav>div>p>a:hover {
     color: white;
     text-decoration: line-through;
     text-shadow: 0 0 30px white,
-                0 0 20px white,
-                0 0 10px white;
-                transition: all 0.3s ease;
+        0 0 20px white,
+        0 0 10px white;
+    transition: all 0.3s ease;
 }
 
-#nav-connexion{
+#nav-connexion {
     align-self: flex-end;
-    border-left: solid 2px #796040 ;
+    border-left: solid 2px #796040;
     width: 180px;
     text-align: center;
     font-size: 18px;
 }
 
-nav > div > ul{
+nav>div>ul {
     display: inline-flex;
 }
 
-nav > div > ul > li{
+nav>div>ul>li {
     list-style-type: none;
     padding-left: 110px;
     padding-right: 110px;
 }
 
-nav>div>ul>li>a{
+nav>div>ul>li>a {
     font-size: 23px;
     text-decoration: none;
     color: bisque;
     text-shadow: 0 0 5px white;
 }
 
-nav>div>ul>li>a:hover{
+nav>div>ul>li>a:hover {
     color: white;
     text-shadow: 0 0 30px white,
-    0 0 20px white,
-    0 0 10px white;
+        0 0 20px white,
+        0 0 10px white;
     transition: all 0.3s ease;
 }
 
-.active{
+.active {
     text-decoration: line-through;
-    text-decoration-thickness: 1px ;
+    text-decoration-thickness: 1px;
 }
 
-footer{
-    background-color: rgb(159, 128, 87,0.8);
+footer {
+    background-color: rgb(159, 128, 87, 0.8);
     margin-left: 10%;
     margin-right: 10%;
     display: grid;
@@ -126,13 +126,12 @@ footer{
     text-shadow: 3px 3px 3px rgb(0, 0, 0, 0.4);
 }
 
-#flamme{
+#flamme {
     height: 30px;
     margin-right: 2px;
 }
 
-#hautpage
-{
+#hautpage {
     color: rgb(88, 33, 33);
     font-size: 18px;
     grid-area: 1/ 2/ 1/ 2;
@@ -140,187 +139,185 @@ footer{
     text-shadow: 1px 1px 3px rgb(0, 0, 0, 0.4)
 }
 
-#copy{
+#copy {
     grid-area: 2/ 2/ 2/ 2;
 }
 
-#theme{
+#theme {
     grid-area: 2/ 1/ 2/ 1;
     margin-left: 10px;
 }
 
-#elden{
+#elden {
     grid-area: 1/ 1/ 1/ 1;
 }
 
-#nom{
+#nom-auteur {
     grid-area: 2/ 3/ 2/ 3;
 }
 
 /*Fin header, nav, footer*/
 
-aside{
+aside {
     min-width: 400px;
     border-left: 5px ridge rgb(159, 128, 87, 0.6);
     border-bottom: 5px ridge rgb(159, 128, 87, 0.6);
-    background-image: 
-    url(../img/Actu/anneaugif.gif),
-    url(../img/Actu/logovert.png),
-    url(../img/Actu/logovert.png),
-    url(../img/Actu/farum-azula.png),
-    url(../img/Actu/farum-azula.png),
-    url(../img/Actu/farum-azula.png);
-  background-position: 
-    center top 25px,
-    center top 350px,
-    center top 650px,
-    center bottom,
-    left bottom,
-    right bottom;
-  background-repeat: no-repeat;
-  background-size: 90px auto;
+    background-image:
+        url(../img/Actu/anneaugif.gif),
+        url(../img/Actu/logovert.png),
+        url(../img/Actu/logovert.png),
+        url(../img/Actu/farum-azula.png),
+        url(../img/Actu/farum-azula.png),
+        url(../img/Actu/farum-azula.png);
+    background-position:
+        center top 25px,
+        center top 350px,
+        center top 650px,
+        center bottom,
+        left bottom,
+        right bottom;
+    background-repeat: no-repeat;
+    background-size: 90px auto;
 }
 
-aside>h2{
+aside>h2 {
     text-align: center;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 600;
     color: rgb(107, 143, 112);
     font-size: 35px;
     text-shadow:
-     -1px -1px 0 rgb(212, 189, 160),
-     1px -1px 0 rgb(212, 189, 160), 
-    -1px  1px 0 rgb(212, 189, 160),
-     1px  1px 0 rgb(212, 189, 160);
+        -1px -1px 0 rgb(212, 189, 160),
+        1px -1px 0 rgb(212, 189, 160),
+        -1px 1px 0 rgb(212, 189, 160),
+        1px 1px 0 rgb(212, 189, 160);
     margin-bottom: 100px;
     margin-top: 50px;
     text-decoration: none;
 }
 
-aside img{
+aside img {
     width: 200px;
     border: 2px ridge black;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-aside a{
+aside a {
     display: flex;
     flex-direction: row;
     margin-bottom: 150px;
     text-align: left;
-    color:black;
+    color: black;
     text-decoration: none;
     border: rgb(133, 99, 55) 2px solid;
     border-radius: 80%;
 }
 
-.texte-actualite:hover{
+.texte-actualite:hover {
     text-shadow: -1px -1px 10px rgb(212, 189, 160),
-    1px -1px 5px rgb(212, 189, 160), 
-   -1px  1px 0 rgb(212, 189, 160),
-    1px  1px 0 rgb(212, 189, 160);
+        1px -1px 5px rgb(212, 189, 160),
+        -1px 1px 0 rgb(212, 189, 160),
+        1px 1px 0 rgb(212, 189, 160);
     transition: all 0.3s ease;
 }
 
-aside img:hover{
+aside img:hover {
     border: 2px ridge rgb(212, 189, 160);
     transition: border 0.3s;
 }
 
-.texte-actualite{
+.texte-actualite {
     margin-top: 10px;
     margin-right: 10px;
 }
 
 /*Fin Aside*/
 
-.page{
+.page {
     border: 10px double rgb(159, 128, 87);
     margin-left: 10%;
     margin-right: 10%;
     background: rgba(222, 184, 135, 0.7);
 }
 
-#page-index{
+#page-index {
     border: 10px double rgb(159, 128, 87);
     margin-left: 10%;
     margin-right: 10%;
-    background: linear-gradient(
-        rgba(222, 184, 135, 0.4),
-        rgba(222, 184, 135, 0.8),
-        rgba(222, 184, 135, 0.6),
-        rgba(222, 184, 135, 0.2),
-        rgba(222, 184, 135, 0.1)
-      );
+    background: linear-gradient(rgba(222, 184, 135, 0.4),
+            rgba(222, 184, 135, 0.8),
+            rgba(222, 184, 135, 0.6),
+            rgba(222, 184, 135, 0.2),
+            rgba(222, 184, 135, 0.1));
 }
 
-#division-index{
+#division-index {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
 }
 
-h1{
+h1 {
     text-align: center;
     font-family: "Cinzel Decorative", serif;
     color: white;
     text-shadow: 0 0 5px rgb(141, 72, 3),
-    0 0 10px rgb(151, 110, 8);
+        0 0 10px rgb(151, 110, 8);
 }
 
-main>article>h2{
+main>article>h2 {
     font-family: "Bebas Neue", Georgia, 'Times New Roman', Times, serif;
     font-size: 40px;
     text-decoration: underline;
     text-shadow: 2px 2px 8px rgba(255, 221, 0, 0.3),
-    5px 5px 5px rgb(255, 255, 255, 0.1);
+        5px 5px 5px rgb(255, 255, 255, 0.1);
     margin-top: 5%;
 }
 
-#titre-presentation{
+#titre-presentation {
     margin-left: 18%;
 }
 
-article{
+article {
     margin-left: 2%;
     margin-right: 2%;
     line-height: 1.5;
 }
 
-#presentation{
+#presentation {
     display: inline-flex;
     background-image: url(../img/plume.png);
-    background-position: 
-    right 200px bottom;
+    background-position:
+        right 200px bottom;
     background-repeat: no-repeat;
     background-size: 70px auto;
 }
 
-iframe{
+iframe {
     min-width: 560px;
     margin-right: 3%;
     border: groove rgba(255, 221, 0, 0.3);
 }
 
-.principal{
+.principal {
     color: rgba(255, 221, 0, 1);
     text-shadow: 0 0 5px white,
-    0 0 8px white;
+        0 0 8px white;
 }
 
-#titre-systeme{
+#titre-systeme {
     margin-left: 65%;
     margin-bottom: 10px;
 }
 
-#systeme-jeu{
+#systeme-jeu {
     display: flex;
     align-items: flex-start;
     gap: 3%;
 }
 
-#img-gameplay{
+#img-gameplay {
     margin-top: 3%;
     min-width: 400px;
     min-height: 280px;
@@ -328,34 +325,34 @@ iframe{
     border: groove rgba(255, 221, 0, 0.3);
 }
 
-#classes-classement{
+#classes-classement {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
 }
 
-#kill{
+#kill {
     width: 300px;
     margin-left: 20%;
 }
 
 /*Liste classes jouables*/
 
-#liste{
+#liste {
     font-family: "Tagesschrift", system-ui;
     margin-top: -7%;
     margin-right: -28%;
 }
 
-#liste>h2{
+#liste>h2 {
     text-decoration: underline;
     text-shadow: 1px 1px 10px rgb(100, 28, 28);
 }
 
 #liste-classes {
     list-style-image: url('../img/epee.png');
-  }
-  
+}
+
 .liste-texte {
     position: relative;
     top: -12px;
@@ -364,53 +361,64 @@ iframe{
 
 /* Tableau classement */
 
-caption{
+caption {
     font-weight: bold;
     font-size: 18px;
     margin-bottom: 1%;
 }
 
-table, td, th{
+table,
+td,
+th {
     background-color: rgba(222, 184, 135, 0.4);
     border: solid 1px;
     font-family: "Winky Rough", sans-serif;
     text-align: center;
 }
 
-#difficulte1{
+#difficulte1 {
     background-color: rgb(255, 0, 0);
 }
-#difficulte2{
+
+#difficulte2 {
     background-color: rgb(255, 72, 0);
 }
-#difficulte3{
+
+#difficulte3 {
     background-color: rgb(255, 115, 0);
 }
-#difficulte4{
+
+#difficulte4 {
     background-color: rgb(255, 191, 0);
 }
-#difficulte5{
+
+#difficulte5 {
     background-color: rgb(255, 247, 0);
 }
-#difficulte6{
+
+#difficulte6 {
     background-color: rgb(208, 255, 0);
 }
-#difficulte7{
+
+#difficulte7 {
     background-color: rgb(179, 255, 0);
 }
-#difficulte8{
+
+#difficulte8 {
     background-color: rgb(157, 255, 0);
 }
-#difficulte9{
+
+#difficulte9 {
     background-color: rgb(106, 255, 0);
 }
-#difficulte10{
+
+#difficulte10 {
     background-color: rgb(68, 255, 0, 0.6);
 }
 
 /*Page - Se connecter*/
 
-#image-construction{
+#image-construction {
     width: 1200px;
     margin-inline: 10% auto;
     margin-top: 30px;
@@ -419,7 +427,7 @@ table, td, th{
     filter: sepia(20%);
 }
 
-#texte-construction{
+#texte-construction {
     text-align: center;
     margin-top: 5%;
     font-size: 40px;
@@ -429,31 +437,31 @@ table, td, th{
 
 /*Galerie Photo*/
 
-#galerie-titre{
+#galerie-titre {
     margin-bottom: 5%;
 }
 
-#galerie{
+#galerie {
     display: flex;
     flex-flow: wrap;
     gap: 30px;
     margin-left: 30px;
 }
 
-#galerie>div>img{
+#galerie>div>img {
     max-width: 700px;
     border: #796040 ridge 5px;
 }
 
-#galerie>div>p{
+#galerie>div>p {
     text-align: center;
     font-family: "Tagesschrift", system-ui;
     color: white;
     text-shadow: 0 0 5px rgb(141, 72, 3),
-    0 0 10px rgb(151, 110, 8);
+        0 0 10px rgb(151, 110, 8);
 }
 
-#galerie>div>p>span{
+#galerie>div>p>span {
     border: 1px solid rgb(255, 255, 255, 0.1);
     padding-inline: 10px;
     padding-top: 5px;
@@ -464,7 +472,7 @@ table, td, th{
 
 /*Commentaires*/
 
-#page-com{
+#page-com {
     position: relative;
     overflow: hidden;
     border: 10px double rgb(159, 128, 87);
@@ -473,20 +481,20 @@ table, td, th{
     background: rgba(222, 184, 135, 0.7);
 }
 
-#img-repos{
+#img-repos {
     position: absolute;
     z-index: 0;
     margin-left: 15%;
     margin-top: 5px;
     border-radius: 5%;
     box-shadow: bisque 0 0 10px,
-    bisque 0 0 20px,
-    bisque 0 0 30px,
-    bisque 0 0 40px;
+        bisque 0 0 20px,
+        bisque 0 0 30px,
+        bisque 0 0 40px;
     width: 1075px;
 }
 
-form{
+form {
     position: relative;
     z-index: 1;
     margin-top: 25px;
@@ -495,30 +503,28 @@ form{
     flex-direction: row;
     color: white;
     text-shadow: black 0 0 5px;
-    background: linear-gradient(
-        rgba(222, 184, 135, 0.8),
-        rgba(222, 184, 135, 0.1),
-        rgba(222, 184, 135, 0)
-      );
+    background: linear-gradient(rgba(222, 184, 135, 0.8),
+            rgba(222, 184, 135, 0.1),
+            rgba(222, 184, 135, 0));
     width: 1075px;
     border-radius: 5%;
 }
 
-#formulaire1{
+#formulaire1 {
     font-family: system-ui;
 }
 
-fieldset{
+fieldset {
     border: none;
     margin-bottom: 25%;
 }
 
-fieldset>div{
+fieldset>div {
     margin-bottom: 10%;
     margin-top: 5%;
 }
 
-label{
+label {
     display: inline-block;
     width: 150px;
     margin-block: 8px;
@@ -529,72 +535,70 @@ input[type="text"],
 input[type="tel"],
 input[type="email"],
 input[type="date"],
-select
-{
-height: 20px;
-width: 200px;
-box-shadow: 0 0 5px #ffffff;
+select {
+    height: 20px;
+    width: 200px;
+    box-shadow: 0 0 5px #ffffff;
 }
 
-#formulaire2{
+#formulaire2 {
     display: grid;
     grid-template: repeat(1fr*2), repeat(1fr*2);
 }
 
-#jeux-favoris{
+#jeux-favoris {
     grid-area: 1 / 1 / 1 / 1;
-    margin-right: 30px;
+    margin-right: 20px;
     margin-top: 15px;
     font-family: "Metamorphous", serif;
     font-size: 13px;
 }
 
-#jeux-favoris>ul{
+#jeux-favoris>ul {
     list-style: none;
     padding-left: 5px;
-    display: flex;
-    flex-direction: row;
+    columns: 2;
     font-family: "Tagesschrift", system-ui;
 }
 
-input[type="checkbox"]{
+input[type="checkbox"] {
     box-shadow: 0 0 5px #ffffff;
 }
 
-input[type="checkbox"]:checked{
+input[type="checkbox"]:checked {
     accent-color: rgb(38, 41, 98);
 }
 
-#que-pensez-vous{
+#que-pensez-vous {
     grid-area: 1 / 2 / 1 / 2;
     font-family: "Metamorphous", serif;
     font-size: 13px;
 }
 
-#que-pensez-vous>div{
+#que-pensez-vous>div {
     font-family: "Tagesschrift", system-ui;
 }
 
-input[type="radio"]{
+input[type="radio"] {
     margin-left: 70px;
     box-shadow: 0 0 5px #ffffff;
 }
 
-input[type="radio"]:checked{
+input[type="radio"]:checked {
     accent-color: rgb(38, 41, 98);
 }
 
-#comm{
-grid-area: 2 / 1 / 2 / 1;
-font-family: "Cinzel Decorative", serif;
+#comm {
+    grid-area: 2 / 1 / 2 / 1;
+    font-family: "Cinzel Decorative", serif;
 }
 
-textarea{
+textarea {
     width: 300px;
     box-shadow: 0 0 5px #ffffff;
 }
 
-input[type="submit"]{
+input[type="submit"] {
     margin-right: 15%;
     height: 50px;
     margin-top: 5%;
@@ -602,18 +606,18 @@ input[type="submit"]{
     font-weight: bold;
 }
 
-#bouton{
-grid-area: 2 / 2 / 2 / 2;
-align-self: center;
-box-shadow: 0 0 5px white;
-border-radius: 50%;
-background-color: bisque;
-color: black;
+#bouton {
+    grid-area: 2 / 2 / 2 / 2;
+    align-self: center;
+    box-shadow: 0 0 5px white;
+    border-radius: 50%;
+    background-color: bisque;
+    color: black;
 }
 
-#bouton:hover{
+#bouton:hover {
     box-shadow: 0 0 20px rgb(255, 255, 255),
-                0 0 10px rgb(255, 255, 255),
-                0 0 5px rgb(255, 255, 255);
-                transition: all 0.3s ease;
-    }
+        0 0 10px rgb(255, 255, 255),
+        0 0 5px rgb(255, 255, 255);
+    transition: all 0.3s ease;
+}
