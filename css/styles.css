@@ -116,7 +116,8 @@ footer {
     margin-left: 10%;
     margin-right: 10%;
     display: grid;
-    grid-template: repeat(1fr*2), repeat(1fr*3);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     background-image: url(../img/epee-rouge1.png), url(../img/epee-rouge2.png);
     background-position: right, left;
     background-repeat: no-repeat, no-repeat;
@@ -250,9 +251,6 @@ aside img:hover {
             rgba(222, 184, 135, 0.6),
             rgba(222, 184, 135, 0.2),
             rgba(222, 184, 135, 0.1));
-}
-
-#division-index {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -542,8 +540,9 @@ select {
 }
 
 #formulaire2 {
-    display: grid;
-    grid-template: repeat(1fr*2), repeat(1fr*2);
+  display: grid;
+  grid-template-columns: 385px 1fr;
+  grid-template-rows: 245px 1fr;
 }
 
 #jeux-favoris {
