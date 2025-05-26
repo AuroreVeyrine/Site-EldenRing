@@ -37,7 +37,7 @@ nav {
     border-left: 10px double rgb(255, 228, 169, 0.8);
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 2%;
-    width: 1490px;
+    max-width: 100%;
 }
 
 nav>img {
@@ -61,13 +61,12 @@ nav>div>p>a:hover {
 }
 
 nav>div>ul {
-    display: inline-flex;
+    display: flex;
+    gap: 12em;
 }
 
 nav>div>ul>li {
     list-style-type: none;
-    padding-left: 110px;
-    padding-right: 110px;
 }
 
 nav>div>ul>li>a {
