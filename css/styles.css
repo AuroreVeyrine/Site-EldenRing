@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tagesschrift&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Metamorphous&display=swap');
+/*pour 1490px*/
 
 header {
     padding-top: 11%;
@@ -100,7 +101,7 @@ article {
 }
 
 iframe {
-    min-width: 560px;
+    min-width: 53.8%;
     margin-right: 3%;
     border: groove rgba(255, 221, 0, 0.3);
 }
@@ -143,7 +144,7 @@ form {
     background: linear-gradient(rgba(222, 184, 135, 0.8),
             rgba(222, 184, 135, 0.1),
             rgba(222, 184, 135, 0));
-    width: 1075px;
+    max-width: 72.14%;
     border-radius: 5%;
 }
 
@@ -159,8 +160,8 @@ fieldset>div {
 
 label {
     display: inline-block;
-    width: 150px;
-    margin-block: 8px;
+    width: 8.3em;
+    margin-block: 0.45em;
     font-size: 18px;
 }
 
@@ -169,13 +170,13 @@ input[type="tel"],
 input[type="email"],
 input[type="date"],
 select {
-    height: 20px;
-    width: 200px;
+    height: 1.5em;
+    width: 15em;
     box-shadow: 0 0 5px #ffffff;
 }
 
 textarea {
-    width: 300px;
+    width: 22.5em;
     box-shadow: 0 0 5px #ffffff;
 }
 
@@ -188,7 +189,7 @@ input[type="checkbox"]:checked {
 }
 
 input[type="radio"] {
-    margin-left: 70px;
+    margin-left: 5em;
     box-shadow: 0 0 5px #ffffff;
 }
 
@@ -198,7 +199,8 @@ input[type="radio"]:checked {
 
 input[type="submit"] {
     margin-right: 15%;
-    height: 50px;
+    height: 4em;
+    width: 17em;
     margin-top: 5%;
     font-family: "Metamorphous", serif;
     font-weight: bold;
@@ -206,7 +208,7 @@ input[type="submit"] {
 /*Fin formulaire*/
 
 aside {
-    min-width: 400px;
+    min-width: 26.8%;
     border-left: 5px ridge rgb(159, 128, 87, 0.6);
     border-bottom: 5px ridge rgb(159, 128, 87, 0.6);
     background-image:
@@ -244,10 +246,10 @@ aside>h2 {
 }
 
 aside img {
-    width: 200px;
+    width: 51%;
     border: 2px ridge black;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 }
 
 aside a {
@@ -280,7 +282,7 @@ footer {
     background-position: 10px, 1410px;
     text-align: center;
     text-shadow: 3px 3px 3px rgb(0, 0, 0, 0.4);
-    width: 1510px;
+    max-width: 100%;
 }
 
 /****************************************************************/
@@ -306,7 +308,7 @@ footer {
     margin-left: 10%;
     margin-right: 10%;
     background: rgba(222, 184, 135, 0.7);
-    width: 1490px;
+    max-width: 100%;
 }
 
 /*Nav actif*/
@@ -365,7 +367,7 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    width: 1490px;
+    max-width: 100%;
 }
 
 /*Presentation*/
@@ -472,7 +474,7 @@ footer {
 
 /*Page "Se connecter"*/
 #image-construction {
-    width: 1200px;
+    width: 80.53%;
     margin-inline: 10% auto;
     margin-top: 30px;
     border: groove #796040 10px;
@@ -530,7 +532,7 @@ footer {
     margin-left: 10%;
     margin-right: 10%;
     background: rgba(222, 184, 135, 0.7);
-    width: 1490px;
+    max-width: 100%;
 }
 
 #img-repos {
@@ -543,7 +545,7 @@ footer {
         bisque 0 0 20px,
         bisque 0 0 30px,
         bisque 0 0 40px;
-    width: 1075px;
+    width: 72.14%;
 }
 
 #formulaire1 {
@@ -552,8 +554,8 @@ footer {
 
 #formulaire2 {
   display: grid;
-  grid-template-columns: 385px 1fr;
-  grid-template-rows: 245px 1fr;
+  grid-template-columns: 24em 1fr;
+  grid-template-rows: 15.4em 1fr;
 }
 
 #jeux-favoris {
