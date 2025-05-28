@@ -220,8 +220,8 @@ aside {
         url(../img/Actu/farum-azula.png);
     background-position:
         center top 25px,
-        center top 350px,
-        center top 650px,
+        center top 35%,
+        center top 65%,
         center bottom,
         left bottom,
         right bottom;
@@ -255,7 +255,7 @@ aside img {
 aside a {
     display: flex;
     flex-direction: row;
-    margin-bottom: 150px;
+    margin-bottom: 40%;
     text-align: left;
     color: black;
     text-decoration: none;
@@ -379,7 +379,7 @@ footer {
     display: inline-flex;
     background-image: url(../img/plume.png);
     background-position:
-        right 200px bottom;
+        right 21% bottom;
     background-repeat: no-repeat;
     background-size: 70px auto;
 }
