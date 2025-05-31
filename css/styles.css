@@ -279,7 +279,7 @@ footer {
     background-position: right, left;
     background-repeat: no-repeat, no-repeat;
     background-size: 90px, 90px;
-    background-position: 10px, 1410px;
+    background-position: 1%, 99%;
     text-align: center;
     text-shadow: 3px 3px 3px rgb(0, 0, 0, 0.4);
     max-width: 100%;
@@ -498,12 +498,12 @@ footer {
 #galerie {
     display: flex;
     flex-flow: wrap;
-    gap: 30px;
-    margin-left: 30px;
+    gap: 2em;
+    justify-content: center;
 }
 
 #galerie>div>img {
-    max-width: 700px;
+    max-width: 42em;
     border: #796040 ridge 5px;
 }
 
@@ -560,15 +560,15 @@ footer {
 
 #jeux-favoris {
     grid-area: 1 / 1 / 1 / 1;
-    margin-right: 20px;
-    margin-top: 15px;
+    margin-right: 1em;
+    margin-top: 1.3em;
     font-family: "Metamorphous", serif;
     font-size: 13px;
 }
 
 #jeux-favoris>ul {
     list-style: none;
-    padding-left: 5px;
+    padding-left: 0.5em;
     columns: 2;
     font-family: "Tagesschrift", system-ui;
 }
@@ -635,3 +635,30 @@ footer {
     grid-area: 2/ 3/ 2/ 3;
 }
 /*Fin footer*/
+
+@media only screen and (max-width: 1774px){
+    nav {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#page-index {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.page{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#page-com {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+footer{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+}
